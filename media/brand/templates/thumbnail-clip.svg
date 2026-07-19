@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="MawjaLab clip thumbnail template">
+  <!-- Clip-Thumbnail-Template (visual-identity.md §5): 1280x720, KEIN Gesicht —
+       das Objekt ist der Held, der Titel die Suchanfrage.
+       PRO CLIP TAUSCHEN: Foto (rect#foto-platzhalter → <image ... slice/>), Titelzeilen, Chip-Text. -->
+  <defs>
+    <radialGradient id="fotoPh" cx="0.42" cy="0.4" r="0.9">
+      <stop offset="0" stop-color="#3A4048"/>
+      <stop offset="0.55" stop-color="#22262B"/>
+      <stop offset="1" stop-color="#1A1D21"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A1D21" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1A1D21" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect id="foto-platzhalter" width="1280" height="720" fill="url(#fotoPh)"/>
+  <text x="640" y="200" text-anchor="middle" font-family="IBM Plex Mono" font-size="22" fill="#6B7076">FOTO ERSETZEN: das Objekt des Clips — Schaltung / Waveform / Layout</text>
+  <rect y="396" width="1280" height="324" fill="url(#scrim)"/>
+  <text x="1232" y="500" text-anchor="start" direction="rtl" font-family="IBM Plex Sans Arabic" font-size="120" font-weight="700" fill="#F2EFEA">هل المحاكاة</text>
+  <text x="1232" y="646" text-anchor="start" direction="rtl" font-family="IBM Plex Sans Arabic" font-size="120" font-weight="700" fill="#F2EFEA">تطابق الواقع؟</text>
+  <g>
+    <rect x="48" y="632" width="286" height="52" rx="8" fill="#E8853D"/>
+    <text x="191" y="668" text-anchor="middle" font-family="IBM Plex Mono" font-size="30" font-weight="700" fill="#16191D">KiCad → PCB</text>
+  </g>
+  <g transform="translate(1168,24) scale(0.171875)">
+    <rect width="512" height="512" rx="112" fill="#1A1D21"/>
+    <path d="M 76 256 H 108 C 126 164, 162 164, 182 256 C 202 348, 238 348, 256 256 L 256 186 H 330 V 326 H 404 V 256 H 436" fill="none" stroke="#E8853D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="76" cy="256" r="22" fill="#E8853D"/><circle cx="76" cy="256" r="9" fill="#1A1D21"/>
+    <circle cx="436" cy="256" r="22" fill="#E8853D"/><circle cx="436" cy="256" r="9" fill="#1A1D21"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-label="MawjaLab short-form hook template">
+  <!-- Short-Form-Template 9:16 (visual-identity.md §8): 1080x1920 für Shorts/TikTok/Reels.
+       PRO HOOK TAUSCHEN: Video/Standbild statt rect#foto-platzhalter, Hook-Zeilen, Chip.
+       VOR DEM EXPORT: die Gruppe g#ui-guides LÖSCHEN — sie zeigt nur die Plattform-UI-Zonen. -->
+  <defs>
+    <radialGradient id="fotoPh" cx="0.5" cy="0.55" r="1">
+      <stop offset="0" stop-color="#3A4048"/>
+      <stop offset="0.55" stop-color="#22262B"/>
+      <stop offset="1" stop-color="#1A1D21"/>
+    </radialGradient>
+  </defs>
+  <rect id="foto-platzhalter" width="1080" height="1920" fill="url(#fotoPh)"/>
+  <text x="540" y="1100" text-anchor="middle" font-family="IBM Plex Mono" font-size="24" fill="#6B7076">VIDEO / STANDBILD: der visuellste Moment</text>
+  <!-- Marke oben links (rechts liegt die Plattform-UI) -->
+  <g transform="translate(32,252) scale(0.140625)">
+    <rect width="512" height="512" rx="112" fill="#1A1D21"/>
+    <path d="M 76 256 H 108 C 126 164, 162 164, 182 256 C 202 348, 238 348, 256 256 L 256 186 H 330 V 326 H 404 V 256 H 436" fill="none" stroke="#E8853D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="76" cy="256" r="22" fill="#E8853D"/><circle cx="76" cy="256" r="9" fill="#1A1D21"/>
+    <circle cx="436" cy="256" r="22" fill="#E8853D"/><circle cx="436" cy="256" r="9" fill="#1A1D21"/>
+  </g>
+  <!-- Hook: oberes Drittel, zentriert, max 2 Zeilen (Regeln wie §5.2) -->
+  <text x="540" y="560" text-anchor="middle" direction="rtl" font-family="IBM Plex Sans Arabic" font-size="88" font-weight="700" fill="#F2EFEA">أول Blink</text>
+  <text x="540" y="672" text-anchor="middle" direction="rtl" font-family="IBM Plex Sans Arabic" font-size="88" font-weight="700" fill="#F2EFEA">بدون Arduino</text>
+  <g>
+    <rect x="380" y="724" width="320" height="56" rx="8" fill="#E8853D"/>
+    <text x="540" y="763" text-anchor="middle" font-family="IBM Plex Mono" font-size="32" font-weight="700" fill="#16191D">bare-metal C</text>
+  </g>
+  <!-- UI-Zonen (vor Export löschen) -->
+  <g id="ui-guides" fill="none" stroke="#E5484D" stroke-width="3" stroke-dasharray="14 10" opacity="0.5">
+    <rect x="2" y="2" width="1076" height="218"/>
+    <rect x="2" y="1600" width="1076" height="318"/>
+    <rect x="930" y="220" width="148" height="1380"/>
+    <text x="60" y="60" font-family="IBM Plex Mono" font-size="28" fill="#E5484D" stroke="none">UI-ZONE — freihalten</text>
+    <text x="60" y="1660" font-family="IBM Plex Mono" font-size="28" fill="#E5484D" stroke="none">UI-ZONE — freihalten (Captions enden bei y=1540)</text>
+  </g>
+</svg>

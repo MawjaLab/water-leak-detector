@@ -1,7 +1,7 @@
 project:
-  name: "PROJECT_NAME"
-  slug: "PROJECT_SLUG"
-  type: "PROJECT_TYPE"
+  name: "Water Leak Detector"
+  slug: "water-leak-detector"
+  type: "hardware"
   status: "idea"
   version: "0.1.0"
 
@@ -9,7 +9,7 @@ content:
   language: "ar"
   target_audience: "electronics-beginner"
   youtube_series: true
-  channel_name: "YOUTUBE_CHANNEL"
+  channel_name: "MawjaLab"
 
 hardware:
   enabled: true

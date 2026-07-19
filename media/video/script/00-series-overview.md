@@ -1,4 +1,4 @@
-# PROJECT_NAME – YouTube Series
+# Water Leak Detector – YouTube Series
 
 ## Series Goal
 

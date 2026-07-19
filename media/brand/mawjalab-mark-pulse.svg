@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="MawjaLab mark — sine to square wave trace">
+  <!-- Variante A "Pulse": Sinus (Analog-Track) geht in Rechteckwelle (Digital-Track) über.
+       Kupfer-Trace mit PCB-Pads auf Anthrazit.
+       Routing-Regeln: Trace startet/endet im Pad-Zentrum mit waagerechtem Lead-in/out;
+       Pads liegen über dem Trace, damit die Bohrung sichtbar bleibt.
+       Amplituden: Sinus-Scheitel ~±69, Rechteck ±70 — optisch gleich. -->
+  <rect width="512" height="512" rx="112" fill="#1A1D21"/>
+  <!-- Trace: Lead-in, Sinusperiode, Rechteckperiode, Lead-out -->
+  <path d="M 76 256
+           H 108
+           C 126 164, 162 164, 182 256
+           C 202 348, 238 348, 256 256
+           L 256 186
+           H 330
+           V 326
+           H 404
+           V 256
+           H 436"
+        fill="none" stroke="#E8853D" stroke-width="30"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Pads (über dem Trace, mit Bohrung) -->
+  <circle cx="76" cy="256" r="22" fill="#E8853D"/>
+  <circle cx="76" cy="256" r="9" fill="#1A1D21"/>
+  <circle cx="436" cy="256" r="22" fill="#E8853D"/>
+  <circle cx="436" cy="256" r="9" fill="#1A1D21"/>
+</svg>

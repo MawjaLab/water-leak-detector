@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="MawjaLab flagship thumbnail template">
+  <!-- Flagship-Thumbnail-Template (visual-identity.md §5): 1280x720.
+       PRO VIDEO TAUSCHEN: (1) Foto — den rect#foto-platzhalter durch
+       <image href="foto.jpg" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/> ersetzen,
+       (2) die zwei Titelzeilen, (3) den Chip-Text, (4) das Gesichtsfoto (circle#gesicht als Muster nutzen).
+       Regeln: max 4 Wörter, keine Episodennummern, Checkliste §5.3. -->
+  <defs>
+    <radialGradient id="fotoPh" cx="0.68" cy="0.35" r="0.9">
+      <stop offset="0" stop-color="#3A4048"/>
+      <stop offset="0.55" stop-color="#22262B"/>
+      <stop offset="1" stop-color="#1A1D21"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A1D21" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1A1D21" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect id="foto-platzhalter" width="1280" height="720" fill="url(#fotoPh)"/>
+  <text x="640" y="200" text-anchor="middle" font-family="IBM Plex Mono" font-size="22" fill="#6B7076">FOTO ERSETZEN: Breadboard-Makro / Scope-Trace / PCB in der Hand</text>
+  <rect y="396" width="1280" height="324" fill="url(#scrim)"/>
+  <!-- Titel: Arabisch, 2 Zeilen, rechtsbündig -->
+  <text x="1000" y="500" text-anchor="start" direction="rtl" font-family="IBM Plex Sans Arabic" font-size="120" font-weight="700" fill="#F2EFEA">ليش الـ LED</text>
+  <text x="1000" y="646" text-anchor="start" direction="rtl" font-family="IBM Plex Sans Arabic" font-size="120" font-weight="700" fill="#F2EFEA">محتاج مقاومة؟</text>
+  <!-- Keyword-Chip -->
+  <g>
+    <rect x="48" y="632" width="196" height="52" rx="8" fill="#E8853D"/>
+    <text x="146" y="668" text-anchor="middle" font-family="IBM Plex Mono" font-size="30" font-weight="700" fill="#16191D">LTspice</text>
+  </g>
+  <!-- Gesicht (nur Flagships): Kreis 180px mit Kupferring -->
+  <circle id="gesicht" cx="1130" cy="560" r="90" fill="#3A4048" stroke="#E8853D" stroke-width="6"/>
+  <text x="1130" y="568" text-anchor="middle" font-family="IBM Plex Mono" font-size="18" fill="#9AA0A6">GESICHT</text>
+  <!-- Marke oben rechts, 88px -->
+  <g transform="translate(1168,24) scale(0.171875)">
+    <rect width="512" height="512" rx="112" fill="#1A1D21"/>
+    <path d="M 76 256 H 108 C 126 164, 162 164, 182 256 C 202 348, 238 348, 256 256 L 256 186 H 330 V 326 H 404 V 256 H 436" fill="none" stroke="#E8853D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="76" cy="256" r="22" fill="#E8853D"/><circle cx="76" cy="256" r="9" fill="#1A1D21"/>
+    <circle cx="436" cy="256" r="22" fill="#E8853D"/><circle cx="436" cy="256" r="9" fill="#1A1D21"/>
+  </g>
+</svg>

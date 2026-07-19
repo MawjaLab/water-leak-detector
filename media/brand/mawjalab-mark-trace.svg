@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 220" role="img" aria-label="MawjaLab trace-only mark">
+  <!-- Trace-only-Variante (transparenter Hintergrund):
+       für Video-Wasserzeichen, helle Hintergründe (dann Farbe #B85C1F) und PCB-Silkscreen
+       (dann einfarbig Weiß, Breite auf Platine >= 8 mm).
+       Geometrie identisch zum Tile-Master (mawjalab-mark-pulse.svg), um (-40,-146) verschoben.
+       Pads als Ringe (Außen r22, Bohrung r9) — die Bohrung bleibt echt transparent.
+       Trace endet mit Butt-Cap bündig an der Bohrungskante (x=45 bzw. x=387),
+       damit er die Bohrung nicht überdeckt. -->
+  <path d="M 45 110
+           H 68
+           C 86 18, 122 18, 142 110
+           C 162 202, 198 202, 216 110
+           L 216 40
+           H 290
+           V 180
+           H 364
+           V 110
+           H 387"
+        fill="none" stroke="#E8853D" stroke-width="30"
+        stroke-linecap="butt" stroke-linejoin="round"/>
+  <circle cx="36" cy="110" r="15.5" fill="none" stroke="#E8853D" stroke-width="13"/>
+  <circle cx="396" cy="110" r="15.5" fill="none" stroke="#E8853D" stroke-width="13"/>
+</svg>

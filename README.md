@@ -1,6 +1,6 @@
-# PROJECT_NAME
+# Water Leak Detector
 
-> PROJECT_DESCRIPTION
+> Analog water leak detector from idea to real PCB: LTspice simulation, KiCad schematic and layout, copper trace electrodes as the sensor.
 
 ## Project Goal
 
@@ -8,7 +8,7 @@ This repository documents the complete development process from the initial idea
 
 ## Project Type
 
-`PROJECT_TYPE`
+`hardware`
 
 ## Learning Objectives
 

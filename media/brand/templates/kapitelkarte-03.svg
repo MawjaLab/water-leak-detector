@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="MawjaLab chapter card 03">
+  <!-- Kapitelkarte 03 (visual-identity.md paragraph 6) - 1.5 bis 2 s Standbild zwischen Workflow-Schritten. -->
+  <rect width="1920" height="1080" fill="#1A1D21"/>
+  <g fill="none" stroke="#E8853D" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" opacity="0.10">
+    <path transform="translate(0,950)" d="M -80 0 C -62 -92, -26 -92, -6 0 C 14 92, 50 92, 68 0 L 68 -70 H 142 V 70 H 216 V 0 C 234 -92, 270 -92, 290 0 C 310 92, 346 92, 364 0 L 364 -70 H 438 V 70 H 512 V 0 C 530 -92, 566 -92, 586 0 C 606 92, 642 92, 660 0 L 660 -70 H 734 V 70 H 808 V 0 C 826 -92, 862 -92, 882 0 C 902 92, 938 92, 956 0 L 956 -70 H 1030 V 70 H 1104 V 0 C 1122 -92, 1158 -92, 1178 0 C 1198 92, 1234 92, 1252 0 L 1252 -70 H 1326 V 70 H 1400 V 0 C 1418 -92, 1454 -92, 1474 0 C 1494 92, 1530 92, 1548 0 L 1548 -70 H 1622 V 70 H 1696 V 0 C 1714 -92, 1750 -92, 1770 0 C 1790 92, 1826 92, 1844 0 L 1844 -70 H 1918 V 70 H 1992 V 0 C 2010 -92, 2046 -92, 2066 0 C 2086 92, 2122 92, 2140 0 L 2140 -70 H 2214 V 70 H 2288 V 0 H 2000"/>
+  </g>
+  <text x="960" y="520" text-anchor="middle" font-family="IBM Plex Mono" font-size="210" font-weight="700" fill="#E8853D">03</text>
+  <text x="960" y="668" text-anchor="middle" font-family="IBM Plex Sans, IBM Plex Sans Arabic" font-size="76" font-weight="600" fill="#F2EFEA">KiCad Schematic</text>
+  <g transform="translate(1795,60) scale(0.16)">
+    <path d="M 45 110 H 68 C 86 18, 122 18, 142 110 C 162 202, 198 202, 216 110 L 216 40 H 290 V 180 H 364 V 110 H 387" fill="none" stroke="#E8853D" stroke-width="30" stroke-linecap="butt" stroke-linejoin="round"/>
+    <circle cx="36" cy="110" r="15.5" fill="none" stroke="#E8853D" stroke-width="13"/>
+    <circle cx="396" cy="110" r="15.5" fill="none" stroke="#E8853D" stroke-width="13"/>
+  </g>
+</svg>

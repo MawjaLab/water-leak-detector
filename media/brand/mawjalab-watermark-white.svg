@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 432" role="img" aria-label="MawjaLab branding watermark (white)">
+  <!-- YouTube-Branding-Watermark (visual-identity.md §6): einfarbig Weiß auf Transparent,
+       quadratisch, Export 150x150. Trace vertikal zentriert ((432-220)/2 = 106). -->
+  <g transform="translate(0,106)">
+    <path d="M 45 110 H 68
+             C 86 18, 122 18, 142 110
+             C 162 202, 198 202, 216 110
+             L 216 40 H 290 V 180 H 364 V 110 H 387"
+          fill="none" stroke="#FFFFFF" stroke-width="30"
+          stroke-linecap="butt" stroke-linejoin="round"/>
+    <circle cx="36" cy="110" r="15.5" fill="none" stroke="#FFFFFF" stroke-width="13"/>
+    <circle cx="396" cy="110" r="15.5" fill="none" stroke="#FFFFFF" stroke-width="13"/>
+  </g>
+</svg>

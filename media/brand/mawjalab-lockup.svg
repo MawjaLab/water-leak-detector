@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 400" role="img" aria-label="MawjaLab lockup — mark, wordmark and Arabic name">
+  <!-- Horizontales Lockup: Pulse-Mark + Wortmarke + arabischer Name.
+       Fonts: IBM Plex Sans / IBM Plex Sans Arabic (lokal installieren);
+       Fallbacks: Noto Sans, Noto Kufi Arabic, DejaVu Sans. -->
+  <rect width="1440" height="400" fill="#1A1D21"/>
+  <!-- Mark (Variante A, skaliert) -->
+  <g transform="translate(56,56) scale(0.5625)">
+    <path d="M 76 256
+             H 108
+             C 126 164, 162 164, 182 256
+             C 202 348, 238 348, 256 256
+             L 256 186 H 330 V 326 H 404 V 256 H 436"
+          fill="none" stroke="#E8853D" stroke-width="30"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="76" cy="256" r="22" fill="#E8853D"/>
+    <circle cx="76" cy="256" r="9" fill="#1A1D21"/>
+    <circle cx="436" cy="256" r="22" fill="#E8853D"/>
+    <circle cx="436" cy="256" r="9" fill="#1A1D21"/>
+  </g>
+  <!-- Wortmarke -->
+  <text x="400" y="216" font-family="IBM Plex Sans, Noto Sans, DejaVu Sans, sans-serif"
+        font-size="128" font-weight="700" fill="#F2EFEA" letter-spacing="-2">Mawja<tspan fill="#E8853D">Lab</tspan></text>
+  <!-- Arabischer Name -->
+  <text x="404" y="316" font-family="IBM Plex Sans Arabic, Noto Kufi Arabic, Noto Naskh Arabic, sans-serif"
+        font-size="68" font-weight="500" fill="#9AA0A6">موجة لاب</text>
+</svg>
