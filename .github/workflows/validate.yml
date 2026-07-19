@@ -1,0 +1,53 @@
+name: Validate Project
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-structure:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install validation tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y shellcheck
+          python3 -m pip install --disable-pip-version-check PyYAML
+
+      - name: Validate shell scripts
+        run: |
+          find tools -type f -name '*.sh' -print0 |
+          xargs -0 -r shellcheck
+
+      - name: Validate project structure
+        run: |
+          bash tools/validation/validate-template.sh
+
+      - name: Check YAML syntax
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import yaml
+
+          files = list(Path(".").rglob("*.yaml"))
+          files.extend(Path(".").rglob("*.yml"))
+
+          for file in files:
+              if ".git" in file.parts:
+                  continue
+
+              print(f"Checking {file}")
+
+              with file.open("r", encoding="utf-8") as handle:
+                  yaml.safe_load(handle)
+          PY

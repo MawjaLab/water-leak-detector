@@ -1,0 +1,70 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# C and C++
+build/
+cmake-build-*/
+compile_commands.json
+*.o
+*.a
+*.so
+*.elf
+*.hex
+*.bin
+*.map
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Logs
+*.log
+
+# KiCad temporary files
+*-backups/
+_autosave-*
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.lck
+~*
+
+# Temporary exports
+tmp/
+temp/
+
+# Video files are not stored in the Git repository
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.flac
+
+# Local Claude settings
+.claude/settings.local.json*

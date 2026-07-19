@@ -1,0 +1,35 @@
+{
+  "name": "Electronics Learning Project",
+
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "ms-python.python",
+        "charliermarsh.ruff",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint"
+      ],
+      "settings": {
+        "terminal.integrated.cwd": "${containerWorkspaceFolder}",
+        "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python",
+        "cmake.buildDirectory": "${containerWorkspaceFolder}/build"
+      }
+    }
+  },
+
+  "mounts": [
+    "source=${localWorkspaceFolderBasename}-build,target=${containerWorkspaceFolder}/build,type=volume",
+    "source=${localWorkspaceFolderBasename}-venv,target=${containerWorkspaceFolder}/.venv,type=volume"
+  ],
+
+  "postCreateCommand": "bash tools/setup/setup-development.sh",
+
+  "remoteUser": "vscode"
+}

@@ -1,0 +1,31 @@
+project:
+  name: "PROJECT_NAME"
+  slug: "PROJECT_SLUG"
+  type: "PROJECT_TYPE"
+  status: "idea"
+  version: "0.1.0"
+
+content:
+  language: "ar"
+  target_audience: "electronics-beginner"
+  youtube_series: true
+  channel_name: "YOUTUBE_CHANNEL"
+
+hardware:
+  enabled: true
+  eda_tool: "kicad"
+  pcb_layers: 2
+
+software:
+  enabled: true
+  languages:
+    - "c"
+    - "python"
+  build_system: "cmake"
+
+mechanical:
+  enabled: true
+
+repository:
+  visibility: "public"
+  default_branch: "main"
