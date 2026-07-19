@@ -1,4 +1,5 @@
 project:
+  id: "A1"
   name: "Water Leak Detector"
   slug: "water-leak-detector"
   type: "hardware"
@@ -7,7 +8,7 @@ project:
 
 content:
   language: "ar"
-  target_audience: "electronics-beginner"
+  target_audience: "electronics-learner"
   youtube_series: true
   channel_name: "MawjaLab"
 

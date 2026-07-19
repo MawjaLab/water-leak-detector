@@ -14,15 +14,15 @@ What should the viewer have understood after completion?
 
 ## Target Audience
 
-- [ ] Electronics beginners
-- [ ] Students
-- [ ] Makers
+- [x] Electronics beginners
+- [x] Students
+- [x] Makers
 - [ ] Embedded developers
-- [ ] Hardware developers
+- [x] Hardware developers
 
 ## Project Type
 
-- [ ] Hardware
+- [x] Hardware
 - [ ] Software
 - [ ] Hardware and software
 

@@ -4,6 +4,7 @@
 
 | Field        | Value        |
 | ------------ | ------------ |
+| Project ID   | A1           |
 | Project type | hardware |
 | Status       | Idea         |
 | Version      | 0.1.0        |
@@ -14,7 +15,7 @@
 Complete once after initialization. Details: brand rules in the ancestor `mawjalab/` workspace (`brand/BRAND-CORE.md`, `brand/content-rules.md`).
 
 - [ ] Brand assets present in `media/brand/` (the init script copies them automatically when run inside the brand workspace)
-- [ ] KiCad title block: Title "MawjaLab — {project ID} Water Leak Detector", Company "MawjaLab — mawjalab.com"
+- [ ] KiCad title block: Title "MawjaLab — A1 Water Leak Detector", Company "MawjaLab — mawjalab.com"
 - [ ] PCB silkscreen reminder: single-color trace logo ≥ 8 mm + `mawjalab.com`, in a free corner
 - [ ] Titles and thumbnails follow the content rules: no episode numbers, thumbnail title max 4 words / 2 lines
 - [ ] No absolute local paths in committed files (checked by `tools/validation/validate-template.sh`)
