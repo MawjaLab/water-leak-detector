@@ -18,11 +18,7 @@ hardware:
   pcb_layers: 2
 
 software:
-  enabled: true
-  languages:
-    - "c"
-    - "python"
-  build_system: "cmake"
+  enabled: false
 
 mechanical:
   enabled: true

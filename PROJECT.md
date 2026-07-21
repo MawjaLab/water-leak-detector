@@ -25,14 +25,15 @@ Complete once after initialization. Details: brand rules in the ancestor `mawjal
 - [x] Idea
 - [ ] Requirements
 - [ ] System architecture
+- [ ] Simulation
 - [ ] Component selection
+- [ ] Breadboard prototype
 - [ ] Schematic
 - [ ] PCB review
 - [ ] PCB layout
 - [ ] Manufacturing release
 - [ ] Assembly
 - [ ] Bring-up
-- [ ] Firmware or software
 - [ ] System test
 - [ ] Validation
 - [ ] Lessons learned

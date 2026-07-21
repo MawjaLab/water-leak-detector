@@ -4,7 +4,7 @@
 
 ## Project Goal
 
-This repository documents the complete development process from the initial idea to a validated hardware or software solution.
+This repository documents the complete development process from the initial idea to a validated hardware solution.
 
 ## Project Type
 
@@ -14,39 +14,40 @@ This repository documents the complete development process from the initial idea
 
 - Define requirements methodically
 - Develop a system architecture
+- Simulate the analog circuit in LTspice
 - Select components based on technical criteria
+- Build and test a breadboard prototype
 - Create and review schematics
 - Develop a PCB layout
 - Generate manufacturing data
 - Bring up hardware
-- Develop firmware or software
 - Measure and validate results
 - Document technical decisions traceably
 
 ## Development Process
 
-1. Idea
+1. Idea & market check
 2. Requirements
 3. System architecture
-4. Component selection
-5. Schematic
-6. PCB layout
-7. Manufacturing
-8. Assembly
-9. Bring-up
-10. Firmware or software
-11. Test and validation
-12. Lessons learned
-13. YouTube release
+4. Simulation
+5. Component selection
+6. Breadboard prototype
+7. Schematic
+8. PCB layout
+9. Manufacturing
+10. Assembly
+11. Bring-up
+12. Test and validation
+13. Lessons learned
+14. YouTube release
 
 ## Repository Structure
 
 | Directory    | Contents                                 |
 | ------------ | ---------------------------------------- |
-| `docs`       | Development and learning documentation   |
-| `hardware`   | Schematic, PCB and manufacturing data    |
-| `software`   | Firmware, host software and scripts      |
-| `mechanical` | Mechanical design                        |
+| `docs`       | Development and learning documentation       |
+| `hardware`   | Simulation, schematic, PCB and manufacturing data |
+| `mechanical` | Mechanical design                            |
 | `media`      | Images, diagrams and video content       |
 | `tools`      | Project, validation and release scripts  |
 
