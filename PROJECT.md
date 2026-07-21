@@ -29,10 +29,10 @@ Complete once after initialization. Details: brand rules in the ancestor `mawjal
 - [ ] Component selection
 - [ ] Breadboard prototype
 - [ ] Schematic
-- [ ] PCB review
 - [ ] PCB layout
-- [ ] Manufacturing release
-- [ ] Assembly
+- [ ] PCB review
+- [ ] Design release (fab-ready outputs + 3D render; no fabrication in v1)
+- [ ] Assembly (soldered perfboard prototype)
 - [ ] Bring-up
 - [ ] System test
 - [ ] Validation
@@ -48,7 +48,7 @@ Complete once after initialization. Details: brand rules in the ancestor `mawjal
 | G1   | Requirements approved          | open   |
 | G2   | Architecture approved          | open   |
 | G3   | Schematic approved             | open   |
-| G4   | PCB released for manufacturing | open   |
+| G4   | PCB design released (fab-ready; fabrication deferred to v2) | open   |
 | G5   | Bring-up completed             | open   |
 | G6   | Requirements validated         | open   |
 | G7   | Content published              | open   |

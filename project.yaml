@@ -21,7 +21,7 @@ software:
   enabled: false
 
 mechanical:
-  enabled: true
+  enabled: false
 
 repository:
   visibility: "public"
