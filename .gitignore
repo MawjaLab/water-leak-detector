@@ -68,3 +68,5 @@ temp/
 
 # Local Claude settings
 .claude/settings.local.json*
+.devcontainer/
+mechanical/
